@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f8f4">
+  <title>Toko Seni Gypsum | Material & Pemasangan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Toko Seni Gypsum, beranda" data-page-link="home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span class="brand-name">TOKO SENI <span>GYPSUM</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <button class="nav-link active" type="button" data-page="home" aria-current="page">Beranda</button>
+        <button class="nav-link" type="button" data-page="detail">Produk</button>
+        <button class="nav-link" type="button" data-page="chat">Bantuan</button>
+      </nav>
+      <button class="header-contact" type="button" data-page="chat">
+        <span aria-hidden="true">↗</span> Tanya kami
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="page active" aria-labelledby="hero-title">
+        <div class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow"><span class="eyebrow-dot"></span> MATERIAL & LAYANAN PLAFON</span>
+            <h1 id="hero-title">Detail kecil,<br><span>hasil yang besar.</span></h1>
+            <p>Temukan material gypsum pilihan dan layanan pemasangan yang membantu mewujudkan ruang lebih nyaman.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-page="detail">Jelajahi produk <span aria-hidden="true">→</span></button>
+              <button class="btn btn-quiet" type="button" data-page="chat">Konsultasi dulu</button>
+            </div>
+            <div class="hero-note"><span class="check-icon" aria-hidden="true">✓</span> Pilihan material untuk rumah dan ruang usaha</div>
+          </div>
+          <div class="hero-art" aria-label="Ilustrasi interior dengan detail plafon gypsum" role="img">
+            <div class="art-sun"></div>
+            <div class="art-room">
+              <div class="art-ceiling"></div>
+              <div class="art-wall"></div>
+              <div class="art-window"><span></span></div>
+              <div class="art-plant"><i></i><i></i><i></i><b></b></div>
+              <div class="art-caption"><span class="caption-mark">✳</span><span>Ruang nyaman<br>dimulai dari detail.</span></div>
+            </div>
+            <div class="art-label">DESAIN YANG TERASA</div>
+          </div>
+        </div>
+
+        <section class="catalog" aria-labelledby="catalog-title">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">PILIHAN UNTUK RUANG ANDA</span>
+              <h2 id="catalog-title">Material unggulan</h2>
+            </div>
+            <button class="text-link" type="button" data-page="detail">Lihat semua produk <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="products">
+            <article class="product-card">
+              <div class="product-visual visual-trim"><span class="product-symbol" aria-hidden="true">⌁</span><span class="visual-tag">FINISHING</span></div>
+              <div class="product-info"><span class="product-category">AKSEN PLAFON</span><h3>List Gypsum</h3><p>Sentuhan dekoratif untuk garis plafon yang lebih rapi.</p><button class="card-link" type="button" data-page="detail">Lihat detail <span aria-hidden="true">↗</span></button></div>
+            </article>
+            <article class="product-card">
+              <div class="product-visual visual-hollow"><span class="product-symbol" aria-hidden="true">▤</span><span class="visual-tag">KONSTRUKSI</span></div>
+              <div class="product-info"><span class="product-category">RANGKA PLAFON</span><h3>Hollow</h3><p>Material rangka pendukung untuk konstruksi plafon.</p><button class="card-link" type="button" data-page="detail">Lihat detail <span aria-hidden="true">↗</span></button></div>
+            </article>
+            <article class="product-card">
+              <div class="product-visual visual-paint"><span class="product-symbol" aria-hidden="true">◒</span><span class="visual-tag">FINISHING</span></div>
+              <div class="product-info"><span class="product-category">PELENGKAP</span><h3>Cat</h3><p>Lengkapi pengerjaan dengan hasil akhir yang bersih.</p><button class="card-link" type="button" data-page="detail">Lihat detail <span aria-hidden="true">↗</span></button></div>
+            </article>
+          </div>
+        </section>
+        <div class="support-banner">
+          <div class="support-icon" aria-hidden="true">✳</div>
+          <div><strong>Masih bingung memilih material?</strong><span>Ceritakan kebutuhan Anda, kami bantu arahkan.</span></div>
+          <button class="btn btn-light" type="button" data-page="chat">Mulai konsultasi <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <section id="chat" class="page" aria-labelledby="chat-title" aria-hidden="true">
+        <div class="page-intro">
+          <span class="eyebrow">KAMI SIAP MEMBANTU</span>
+          <h1 id="chat-title">Ada yang ingin ditanyakan?</h1>
+          <p>Pilih topik atau tuliskan pertanyaan Anda di bawah.</p>
+        </div>
+        <div class="chatbox">
+          <div class="chat-head">
+            <div class="bot-avatar" aria-hidden="true">✳</div>
+            <div><strong>Asisten Toko Seni</strong><span><i class="online-dot"></i> Siap membantu</span></div>
+            <span class="chat-label">BANTUAN</span>
+          </div>
+          <div class="messages" id="messages" aria-live="polite" aria-relevant="additions">
+            <div class="msg bot">Halo! Selamat datang di Toko Seni Gypsum. Ada yang bisa kami bantu hari ini?</div>
+          </div>
+          <div class="options" aria-label="Pilih topik pertanyaan">
+            <button type="button" data-choice="Produk">Informasi produk</button>
+            <button type="button" data-choice="Pemasangan">Layanan pemasangan</button>
+            <button type="button" data-choice="Pertanyaan Lainnya">Pertanyaan lainnya</button>
+          </div>
+          <form class="chat-form" id="chat-form">
+            <label class="sr-only" for="question">Tulis pertanyaan Anda</label>
+            <input id="question" name="question" placeholder="Tulis pertanyaan Anda..." autocomplete="off">
+            <button class="btn btn-primary send-button" type="submit">Kirim <span aria-hidden="true">↑</span></button>
+          </form>
+          <p class="chat-footnote">Asisten memberikan informasi berdasarkan data toko yang tersedia.</p>
+        </div>
+      </section>
+
+      <section id="detail" class="page" aria-labelledby="detail-title" aria-hidden="true">
+        <div class="detail">
+          <button class="back-link" type="button" data-page="home"><span aria-hidden="true">←</span> Kembali ke beranda</button>
+          <div class="detail-grid">
+            <div class="detail-visual">
+              <div class="detail-product-art"><span aria-hidden="true">⌁</span></div>
+              <span class="detail-visual-note">AKSEN INTERIOR</span>
+            </div>
+            <div class="detail-copy">
+              <span class="eyebrow">AKSEN PLAFON</span>
+              <h1 id="detail-title">List Gypsum</h1>
+              <p class="detail-description">Beri sentuhan akhir yang rapi pada ruangan dengan list gypsum. Cocok sebagai aksen pertemuan dinding dan plafon.</p>
+              <div class="detail-divider"></div>
+              <div class="price-label">HARGA</div>
+              <div class="price">Hubungi kami <span>untuk informasi harga</span></div>
+              <div class="availability"><span class="availability-dot"></span> Tanyakan ketersediaan produk</div>
+              <button class="btn btn-primary order-button" type="button" data-page="chat">Tanya produk ini <span aria-hidden="true">→</span></button>
+              <p class="detail-footnote">Tim kami siap membantu untuk informasi produk dan pemesanan.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© 2026 Toko Seni Gypsum</span><span>Material pilihan, ruang lebih nyaman.</span></footer>
+  </div>
+  <button class="chat-float" type="button" data-page="chat" aria-label="Buka bantuan chat"><span aria-hidden="true">✳</span><span>BUTUH BANTUAN?</span></button>
+</body>
+</html>
